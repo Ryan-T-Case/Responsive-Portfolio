@@ -196,24 +196,43 @@ footer {
 }
 /* Media Queries */
 @media screen and (max-width: 640px){
+    /* Styling Key Components Located on All Pages */
     body {
         padding: 0;
-      }
-      header {
-        position:static;
-        float:left;
-        height: auto; 
-      }
-      .mainLogo {
-        position:static;
-        width: 100%;
-        float:left
-      }
-      .navBar {
-        position:static;
-        width: 100%;
-        clear: left
-      }
+    }
+    header {
+    position:static;
+    float:left;
+    height: auto; 
+    }
+    .mainLogo {
+    position:static;
+    width: 100%;
+    float:left
+    }
+    .navBar {
+    position:static;
+    width: 100%;
+    clear: left
+    }
+    .wrapper {
+        width: 80%;
+    }
+    footer {
+    position: static;
+    }
+    /* Styling Specific to About Me Page */
+    #profilePhoto {
+    display:block;
+    float: none;
+    margin: 0 auto;
+    }
+    .bioText {
+    text-align:justify;
+    }
+    /* Styling Specific to Portfolio Page */
+    
+
 }
 @media screen and (max-width: 768px){
 
