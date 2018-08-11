@@ -125,7 +125,7 @@ li {
     margin-right: 50px;
     margin-left: 150px;
 }
-/* Relative ositioned to enable the galleryBoxes to position relative to container */
+/* Relative positioned to enable the galleryBoxes to position relative to container */
 .topLeft, .midLeft, .bottomLeft, .topRight, .midRight, .bottomRight {
     position: relative;
     overflow: auto;
@@ -193,6 +193,32 @@ footer {
     height: 70px;
     margin: 0px;
     padding: 0;
+}
+/* Media Queries */
+@media screen and (max-width: 640px){
+    body {
+        padding: 0;
+      }
+      header {
+        position:static;
+        float:left 
+      }
+      .mainLogo {
+        position:static;
+        width: 100%;
+        float:left
+      }
+      .navBar {
+        position:static;
+        width: 100%;
+        clear: left
+      }
+}
+@media screen and (max-width: 768px){
+
+}
+@media screen and (max-width: 980px){
+    
 }
 
 
