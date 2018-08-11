@@ -201,7 +201,8 @@ footer {
       }
       header {
         position:static;
-        float:left 
+        float:left;
+        height: auto; 
       }
       .mainLogo {
         position:static;
