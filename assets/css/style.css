@@ -332,7 +332,17 @@ footer {
         margin-left: auto;
     }
 }
-
+@media screen and (max-width: 860px) {
+    .topLeft, .midLeft, .bottomLeft {
+        margin-left: auto;
+    }
+}
 @media screen and (max-width: 980px) {
-    
+    /* Styling Key Components Located on All Pages */
+    .mainLogo {
+        left: 5%;
+    }
+    .navBar {
+        right: 5%;
+    }
 }
